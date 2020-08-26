@@ -1,0 +1,31 @@
+<?php
+
+class mobil{
+
+    var $warna;
+    var $tipe;
+    var $berat;
+   
+    function tampilkan_warna(){
+        return "mobil saya berwarna merah <br/>";
+    }
+    
+    function tipe(){
+        return "tipe mobil saya adalah mobil sport <br/>";
+    }
+    
+    function berat(){
+      return "mobil saya memiliki bobot 1500 kg <br/>";
+    }
+}
+
+$mobil = new mobil();
+
+
+echo $mobil->tampilkan_warna();
+
+
+echo $mobil->tipe();
+
+echo $mobil->berat();
+?>
